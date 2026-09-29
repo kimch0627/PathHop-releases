@@ -25,6 +25,7 @@ GPO, Intune 같은 도구로 무인 설치·제거할 수 있습니다.
 ```powershell
 msiexec /i PathHop-<버전>-x64.msi /qn                  # 설치, 모든 사용자 자동 실행
 msiexec /i PathHop-<버전>-x64.msi /qn AUTOSTART=0      # 자동 실행 없이 설치
+msiexec /i PathHop-<버전>-x64.msi /passive LAUNCHAPP=0 # 설치가 끝난 뒤 바로 실행하지 않음
 msiexec /x PathHop-<버전>-x64.msi /qn                  # 제거, 사용자 설정은 남김
 msiexec /x PathHop-<버전>-x64.msi /qn REMOVEUSERDATA=1 # 제거하는 사용자의 설정·기록·로그까지 삭제
 ```
