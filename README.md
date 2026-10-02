@@ -1,6 +1,6 @@
 # PathHop
 
-PathHop은 Windows에서 자주 가는 폴더로 바로 이동하게 해 주는 작은 프로그램입니다. 단축키(기본 Ctrl+/)나 마우스로 메뉴를 열어 즐겨찾기, 최근 폴더, 탐색기에 열려 있는 폴더로 이동하고, 파일 열기·저장 대화상자도 그 폴더로 바로 옮깁니다. 글자를 입력하면 한글 초성으로도 바로 찾고, `C:\`처럼 경로를 입력하면 하위 폴더를 따라 들어갑니다.
+PathHop은 Windows에서 자주 가는 폴더로 바로 이동하게 해 주는 작은 프로그램입니다. 단축키(기본 Windows 키+/)나 마우스로 메뉴를 열어 즐겨찾기, 최근 폴더, 탐색기에 열려 있는 폴더로 이동하고, 파일 열기·저장 대화상자도 그 폴더로 바로 옮깁니다. 글자를 입력하면 한글 초성으로도 바로 찾고, `C:\`처럼 경로를 입력하면 하위 폴더를 따라 들어갑니다.
 
 탐색기뿐 아니라 터미널(명령 프롬프트, PowerShell, Windows Terminal)에서는 그 폴더로 이동하는 명령을 입력하고, Total Commander·XYplorer·Files·Q-Dir에서는 보고 있는 패널을 옮깁니다. 지금 폴더를 다른 프로그램(VS Code 등)으로 여는 메뉴 항목과, 팀이 함께 쓰는 공유 메뉴도 만들 수 있습니다.
 
@@ -58,4 +58,4 @@ PathHop은 하루에 한 번 이 저장소에서 새 버전이 있는지 확인�
 
 ## English
 
-PathHop is a small Windows utility that jumps to your folders from a popup menu (Ctrl+/ by default): favorites, recent folders, folders open in File Explorer, and file dialogs. It also changes the folder of terminals (Command Prompt, PowerShell, Windows Terminal) and of Total Commander, XYplorer, Files and Q-Dir, browses into folders as you type a path, opens folders in other programs, and can show a menu shared by your team. Download the MSI (per-machine install) or the portable ZIP from [Releases](../../releases/latest). It runs on Windows 11 23H2 or later (x64), has a Korean and English UI, and sends nothing anywhere except a daily check of this page for a new version (product name and version only; it can be turned off). From 0.4.9 it downloads a new version, verifies its signature and SHA-256, and installs it and restarts when you click the notification or the tray menu entry.
+PathHop is a small Windows utility that jumps to your folders from a popup menu (Windows key + / by default): favorites, recent folders, folders open in File Explorer, and file dialogs. It also changes the folder of terminals (Command Prompt, PowerShell, Windows Terminal) and of Total Commander, XYplorer, Files and Q-Dir, browses into folders as you type a path, opens folders in other programs, and can show a menu shared by your team. Download the MSI (per-machine install) or the portable ZIP from [Releases](../../releases/latest). It runs on Windows 11 23H2 or later (x64), has a Korean and English UI, and sends nothing anywhere except a daily check of this page for a new version (product name and version only; it can be turned off). From 0.4.9 it downloads a new version, verifies its signature and SHA-256, and installs it and restarts when you click the notification or the tray menu entry.
